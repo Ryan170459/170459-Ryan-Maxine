@@ -3,34 +3,16 @@ using namespace std;
 
 int main()
 {
-double sum = 0.0;
-int count;
-cout << "Enter the number of contracts to add: ";
-cin >> count;
-}
+double num1 , num2 , result;
 
-for (int i=0; i < count; i++)
-{
-double contract;
-cout << "Enter contract " << (i + 1) <<": ";
-cin >> contract;
-sum+= contract;
-}
+cout << "Enter the first number:";
+cin >> num1;
 
-double divisor;
-cout << "Enter the number to divide the sum by: ";
-cin >> divisor;
+cout << "Enter the second number:";
+cin >> num2;
+result = num1 + num2;
 
-{
-if (divisor != 0)
-{
-    double result = sum / divisor;
-    cout << "Result: " << result << endl;
-}else
-
-{
-    cout << "Error: Division by zero is not allowed." << endl;
-}
+cout << "Result: " << result <<endl;
 
 return 0;
 }
