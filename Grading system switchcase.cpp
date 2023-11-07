@@ -46,6 +46,7 @@ int main()
     
     }
     
+cout<< "\n*******student Data presented*******\n";
  cout<< "Student name is "<<fullname<<endl;
  cout<< "Taking course " <<course<<endl;
  cout<< "Score is "<<score<<endl;
