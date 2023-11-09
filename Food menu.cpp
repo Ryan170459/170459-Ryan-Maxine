@@ -41,12 +41,9 @@ switch (choice){
 
     return 0;
 }
-//Determining total cost of the meal selected
-totalcost =foodcost + beveragecost + desertcost;
-cout << "Food cost is: $"<<foodcost<<endl;
-cout << "Beverage cost is: $"<<beveragecost<<endl;
-cout << "Desert cost is: $"<<desertcost<<endl;
 
+//Determining total bill of the meal selected
+cout << "Total Cost is: $"<<totalcost<<endl;
 return 0;
 
 }
