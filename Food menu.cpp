@@ -16,6 +16,7 @@ int main() {
 // Introducing switch case to input cost of food,beverage and desert for each meal selected
 switch (choice){
     case 1:
+    totalcost = foodcost + beveragecost + desertcost;
     cout << "Chips Chicken selected"<<endl;
     foodcost = 55;
     beveragecost = 35;
