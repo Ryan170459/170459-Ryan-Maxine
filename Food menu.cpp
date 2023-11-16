@@ -3,7 +3,7 @@ using namespace std;
 int main() {
     int choice;
     int foodcost,beveragecost,desertcost;
-    int totalcost;
+    int totalcost1, totalcost2, totalcost3;
 //Customer to select prefered meal
     cout << "Welcome to Blake Restaurant!"<<endl;
     cout << "CUSTOMER MENU:"<<endl;
@@ -16,11 +16,14 @@ int main() {
 // Introducing switch case to input cost of food,beverage and desert for each meal selected
 switch (choice){
     case 1:
-    totalcost = foodcost + beveragecost + desertcost;
+    
     cout << "Chips Chicken selected"<<endl;
     foodcost = 55;
     beveragecost = 35;
     desertcost = 25;
+    //calculating total foodcost of chips chicken
+    totalcost1 = foodcost + beveragecost + desertcost;
+    cout << "Total Cost is: $"<<totalcost1<<endl;
     break;
 
     case 2:
@@ -28,6 +31,9 @@ switch (choice){
     foodcost = 50;
     beveragecost = 40;
     desertcost = 30;
+    //calculating total food cost of vegetable salad
+    totalcost2 = foodcost + beveragecost + desertcost;
+    cout << "Total Cost is: $"<<totalcost2<<endl;
     break;
 
     case 3:
@@ -35,6 +41,9 @@ switch (choice){
     foodcost = 70;
     beveragecost = 60;
     desertcost = 50;
+    //calculating total food cost of beef steak
+    totalcost3 = foodcost + beveragecost + desertcost;
+    cout << "Total Cost is: $"<<totalcost3<<endl;
     break;
 
     default:
@@ -44,7 +53,7 @@ switch (choice){
 }
 
 //Determining total bill of the meal selected
-cout << "Total Cost is: $"<<totalcost<<endl;
+
 return 0;
 
 }
